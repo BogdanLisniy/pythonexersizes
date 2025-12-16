@@ -62,10 +62,10 @@ class Mathematics:
      result = number ** 2
      print(f"The result is {result}")
      return result
-my_math_instance = Mathematics()
-result_final = my_math_instance.calculate_square()
+#my_math_instance = Mathematics()
+#result_final = my_math_instance.calculate_square()
 
 
-pusssh
 
+ss
 
