@@ -66,6 +66,6 @@ my_math_instance = Mathematics()
 result_final = my_math_instance.calculate_square()
 
 
-pusssh
 
+ss
 
