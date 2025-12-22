@@ -7,12 +7,6 @@ def test_api_code():
  payload = {'mail': 'mytestrole@i.ua',
  'password': '1111111111',
  'domain': 'platform.paidpex'}
- files=[
 
- ]
- headers = {
-   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
- }
-
- response = requests.request("POST", url, headers=headers, data=payload, files=files)
+ response = requests.request("POST", url, json=payload)
  assert response.status_code == 200
