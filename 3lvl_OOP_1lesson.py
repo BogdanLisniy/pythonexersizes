@@ -66,6 +66,6 @@ class Mathematics:
 #result_final = my_math_instance.calculate_square()
 
 
-aa
-ss3
-іііі
+
+ss
+
